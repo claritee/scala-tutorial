@@ -1,3 +1,5 @@
+package intro
+
 import org.joda.time.DateTime
 
 class Hi {
@@ -35,7 +37,7 @@ class Hi {
 
 object Hi extends App {
   val now = new DateTime()
-  println("Hi SBT, the time is " + now.toString("hh:mm aa"))
+  println("intro.Hi SBT, the time is " + now.toString("hh:mm aa"))
   val hi = new Hi
   hi.sayHello()
   hi.sayHello("Sam")
